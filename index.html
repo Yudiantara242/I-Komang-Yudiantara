@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<title>Update Data Diri Pegawai</title>
+<link rel="stylesheet" type="text/css" href="assets/style1.css">
+
+<head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="D:\web\gambar\new-Logo-Undiksha.png">
+            </div>
+            <nav class="nav">
+                <h2>Universitas Pendidikan Ganesha</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="wrapper">
+            <aside class="sidebar">
+                <div style="padding: 10px;">
+                    <b>Terkait</b><br>
+                    <hr>
+                    <a href="#">Dashboard</a><br />
+                    <a href="#">Biodata</a><br />
+                    <a href="#">Update Biodata</a><br />
+                    <a href="#">Contact</a><br />
+                </div>
+            </aside>
+            <main class="content">
+                <div style="padding: 10px;">
+                    <form action="" method="POST">
+                        <fieldset>
+                            <legend>Update Data Diri</legend>
+                            <table>
+                                <tr>
+                                    <td>Nama Depan</td>
+                                    <td>:</td>
+                                    <td><input type="text" nama="namadepan" placeholder="Masukan Nama Depan"></td>
+                                </tr>
+                                <tr>
+                                    <td>Nama Belakang</td>
+                                    <td>:</td>
+                                    <td><input type="text" nama="namabelakang" placeholder="Masukan Nama Belakang"></td>
+                                </tr>
+                                <tr>
+                                    <td>Jenis Kelamin</td>
+                                    <td>:</td>
+                                    <td><input type="radio" nama="lakilaki" value="laki-laki" checked>Laki-laki</td>
+                                    <td><input type="radio" nama="Perempuan" value="perempuan">Perempuan</td>
+                                </tr>
+                                <tr>
+                                    <td>Agama</td>
+                                    <td>:</td>
+                                    <td><select name="Pilih">
+                                            <option value="pil1" selected="selected">Pilihan</option>
+                                            <option value="pil2">Hindu</option>
+                                            <option value="pil3">Islam</option>
+                                            <option value="pil4">Protestan</option>
+                                            <option value="pil5">Katolik</option>
+                                            <option value="pil6">Buddha</option>
+                                            <option value="pil7">Khonghucu</option>
+                                        </select></td>
+                                </tr>
+                                <tr>
+                                    <td>Tanggal Lahir</td>
+                                    <td>:</td>
+                                    <td><input type="date" name="tanggal"></td>
+                                </tr>
+                                <tr>
+                                    <td>Kemampuan Bahasa</td>
+                                    <td>:</td>
+                                    <td><input type="checkbox" nama="inggris" />Bahasa Inggris<br>
+                                        <input type="checkbox" nama="jepang" />Bahasa Jepang<br>
+                                        <input type="checkbox" nama="mandarin" />Bahasa Mandarin<br>
+                                        <input type="checkbox" nama="rusia" />Bahasa Rusia<br>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>E-mail</td>
+                                    <td>:</td>
+                                    <td><input type="text" nama="email" value="" placeholder="Masukan Alamat E-mail">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Password</td>
+                                    <td>:</td>
+                                    <td><input type="password" nama="password" placeholder="Masukan Password"></td>
+                                </tr>
+                                <tr>
+                                    <td>Motivasi</td>
+                                    <td>:</td>
+                                    <td><textarea nama="motivasi" rows="5" cols="20"></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5" align="right"><input type="submit"></td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </form>
+                </div>
+            </main>
+        </div>
+        <footer class="footer">
+            <font color="white">Copyright &#169; Yudiantara</font>
+        </footer>
+    </div>
+</body>
+</head>
+</title>
+
+</html>
